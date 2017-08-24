@@ -1,0 +1,10 @@
+<seelog>  
+    <outputs formatid="seelog-proxy-best">  
+        <buffered size="20" flushperiod="20">  
+            <rollingfile type="date" filename="/var/log/seelog-proxy-best.log" datepattern="2017.04.17" maxrolls="5"/>  
+        </buffered>  
+    </outputs>  
+    <formats>  
+        <format id="seelog-proxy-best" format="%Msg%n"/>  
+    </formats>  
+</seelog> 

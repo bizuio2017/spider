@@ -1,0 +1,4 @@
+# daxiang proxy http api rest
+daxiang_api = "http://vip22.daxiangdaili.com"
+testhttp_api = ""
+timeout = 5
