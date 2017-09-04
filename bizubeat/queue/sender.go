@@ -25,8 +25,8 @@ func NewNsqSender() *NsqSender {
 }
 
 // NewNsqSender send
-func (n *NsqSender) Sender(body []byte) error {
-	err := n.W.Publish("topic_cock", body)
+func (n *NsqSender) Sender(topic string, chann string, body []byte) error {
+	err := n.W.Publish(topic, body)
 	if err != nil {
 
 	}

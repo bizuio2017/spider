@@ -8,7 +8,8 @@ func TestSender(t *testing.T) {
 	msg := "hello"
 
 	for i := 0; i < 5; i++ {
-		n.Sender([]byte(msg))
+		t := "topic_crawling"
+		n.Sender(t, []byte(msg))
 	}
 
 	n.Stop()
