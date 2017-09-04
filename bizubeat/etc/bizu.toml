@@ -1,0 +1,12 @@
+# Nsq  crawling NSQ queue
+crawler_addr = "http://nsq.crawlering.queue"
+crawler_topic = "crawler"
+crawler_channel = "doing"
+
+# period second
+period = 120
+
+# Nsq  storaging NSQ queue
+storage_addr = "http://nsq.storageing.queue"
+storage_topic = "storage"
+storage_channel = "doing"

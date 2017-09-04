@@ -1,0 +1,10 @@
+package: github.com/bizuio2017/spider/bizubeat
+import:
+- package: github.com/nsqio/go-nsq
+  version: 1336c299dd900d045fb6df51fc02adf26cde5414
+- package: github.com/juju/errors
+  version: c7d06af17c68cd34c835053720b21f6549d9b0ee
+- package: github.com/stretchr/testify/assert
+  version: 890a5c3458b43e6104ff5da8dfa139d013d77544
+- package: github.com/Sirupsen/logrus
+  version: 89742aefa4b206dcf400792f3bd35b542998eb3b
