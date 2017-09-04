@@ -4,7 +4,7 @@ import (
 	"github.com/bizuio2017/spider/beats/libbeat/common"
 	"github.com/bizuio2017/spider/beats/libbeat/beat"
 	"github.com/bizuio2017/spider/beats/libbeat/publisher"
-	"github.com/bizuio2017/spider/beats/config"
+	"github.com/bizuio2017/spider/config"
 )
 
 type BizuBeat struct {
